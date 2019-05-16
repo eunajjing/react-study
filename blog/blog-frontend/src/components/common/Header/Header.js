@@ -15,6 +15,7 @@ const Header = () => {
                 </div>
                 <div className={cx('right')}>
                     <Button theme="outline" to="editor">새 포스트</Button>
+                    <Button theme="outline" to="">로그인</Button>
                 </div>
             </div>
         </header>

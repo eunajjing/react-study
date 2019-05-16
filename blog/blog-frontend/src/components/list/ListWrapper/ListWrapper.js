@@ -4,10 +4,10 @@ import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
 
-const ListWrapper = () => {
+const ListWrapper = ({children}) => {
     return (
         <div className={cx('listWapper')}>
-            
+            {children}
         </div>
     );
 };

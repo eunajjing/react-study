@@ -6,12 +6,12 @@ import Footer from '../Footer/Footer';
 
 const cx = classNames.bind(styles);
 
-const PageTemplate = () => {
+const PageTemplate = ({children}) => {
     return (
         <div className={cx('page-template')}>  
             <Header/>
             <main>
-                {}
+                {children}
             </main>
             <Footer/>
         </div>

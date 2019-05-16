@@ -7,15 +7,16 @@
     padding-bottom: 0.25rem;
     font-weight: 600;
     font-size: 0.9rem;
-    color: white;
+    color: $oc-red-5;
     cursor: pointer;
     user-select: none;
     display: inline-flex;
 
     &.default {
-        background: $oc-red-5;
+        background: white;
         &:hover {
-            background: $oc-red-4;
+            background: $oc-red-5;
+            color: white;
         }
         &:active {
             background: $oc-red-5;
@@ -33,15 +34,15 @@
     }
 
     &.outline {
-        border: 2px solid white;
+        border: 2px solid $oc-red-5;
         border-radius: 2px;
         &:hover {
-            background: white;
-            color: $oc-red-5;
+            background: $oc-red-5;
+            color: white;
         }
         &:active {
-            background: rgba(255, 255, 255, 0.85);
-            border: 2px solid rgba(255, 255, 255, 0.85);
+            background: rgba($oc-red-5, 0.85);
+            border: 2px solid rgba($oc-red-5, 0.85);
         }
     }
 
@@ -50,12 +51,13 @@
     }
 
     &.disabled {
-        background: $oc-gray-4;
+        background: white;
         color: $oc-gray-6;
         cursor: default;
         &:hover, &:active {
             box-shadow: none;
-            background: $oc-gray-4;
+            background: white;
+            color: black;
         }
     }
 

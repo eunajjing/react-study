@@ -1,7 +1,7 @@
 @import 'utils';
 
 .header {
-    background: $oc-red-5;
+    background: white;
     .header-content {
         height: 5rem;
         width: 1400px;
@@ -21,7 +21,7 @@
         }
 
         .brand {
-            color: white;
+            color: $oc-red-5;
             font-size: 1.5rem;
             font-weight: 600;
         }
