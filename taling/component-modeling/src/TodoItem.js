@@ -3,6 +3,7 @@ import "./TodoItem.css";
 
 class TodoItem extends Component {
   shouldComponentUpdate(nextProps, nextState) {
+    // 바뀐 프롭스, nextProps
     // if (this.props.todo !== nextProps.todo) {
     //   return true;
     // } else {
