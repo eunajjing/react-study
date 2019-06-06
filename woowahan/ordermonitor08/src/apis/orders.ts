@@ -17,9 +17,9 @@ export class ApiError implements IApiError {
   errorMessage: string = "";
 
   constructor(err: AxiosError) {
-    this.status = err!.response.data.status;
-    this.statusCode = err!.response.status;
-    this.errorMessage = err!.response.data.errorMessage;
+    this.status = err.response.data.status;
+    this.statusCode = err.response.status;
+    this.errorMessage = err.response.data.errorMessage;
   }
 }
 
