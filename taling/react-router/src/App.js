@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Profiles from "./Profiles";
 import History from "./History";
+import WithRouterSample from "./WithRouterSample";
 
 class App extends Component {
   render() {
@@ -31,6 +32,10 @@ class App extends Component {
           <Route path="/history" component={History} />
           <Route render={() => <div>존재하지 않는 페이지입니다.</div>} />
         </Switch>
+        <div>
+          <h1>???</h1>
+          <WithRouterSample />
+        </div>
       </div>
     );
   }

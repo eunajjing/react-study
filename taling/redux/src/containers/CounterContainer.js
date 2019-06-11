@@ -9,14 +9,6 @@ const mapStateToProps = ({ counter: { color, number } }) => ({
   color
 });
 
-// const mapDispatchToProps = dispatch => ({
-//   increment: () => dispatch(increment()),
-//   decrement: () => dispatch(decrement())
-// });
-
-// const mapDispatchToProps = dispatch =>
-//   bindActionCreators({ increment, decrement });
-
 const mapDispatchToProps = { increment, decrement };
 
 class CounterContainer extends Component {

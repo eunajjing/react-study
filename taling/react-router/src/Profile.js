@@ -2,12 +2,12 @@ import React from "react";
 
 const profileData = {
   jordan: {
-    name: "jordan",
-    description: "개발자"
+    name: "1111",
+    description: "11111111111"
   },
   james: {
-    name: "james",
-    description: "학생"
+    name: "2222",
+    description: "222222222222"
   }
 };
 
