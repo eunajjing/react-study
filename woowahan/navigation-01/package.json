@@ -7,7 +7,7 @@
   "dependencies": {
     "@types/react-redux": "7.0.9",
     "antd": "3.18.2",
-    "axios": "0.18.0",
+    "axios": "0.21.1",
     "babel-loader": "8.0.4",
     "moment": "2.24.0",
     "node-sass": "^4.12.0",
